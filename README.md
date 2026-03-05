@@ -20,6 +20,7 @@ The core logic of this contract is to protect the asset by blocking unauthorized
 As shown in the screenshot below, the transaction is automatically reverted by the blockchain because the recipient is not yet KYC-verified.
 
 ![Compliance Error Screenshot](Captura de pantalla 2026-03-05 193158.png)
+*> Note: The screenshot shows the error message in German as defined in the source code: "Empfaenger nicht verifiziert"*
 
 * **Result:** The contract successfully triggered the error message: 
   > **"Compliance Error: Recipient not verified (KYC)"**
